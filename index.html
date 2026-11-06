@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaccion con DOM</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1> Interactividad con el DOM </h1>
+
+        <p>Haz click en el boton para incrementar la cantidad de clicks y registrar el evento en la tabla</p>
+
+        <span id="contador-visual">0</span>
+
+        <div class="boton">
+            <button id="click">!Haz Click aqui!</button>
+        </div>
+
+       <!--tabla de registros-->
+
+       <table>
+          <thead>
+             <tr>
+               <th>Número de Click</th>
+               <th>Hora del Click</th>
+             </tr>
+           </thead>
+        <tbody id="tabla-registros">
+        <!-- JavaScript insertará -->
+        </tbody>
+</table>
+    </div>
+    <script src="contador.js"></script>
+</body>
+</html>
